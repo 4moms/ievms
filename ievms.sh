@@ -229,7 +229,7 @@ check_virtualbox
 check_unrar
 
 all_versions="6 7 8 9"
-for ver in ${IEVMS_VERSIONS:-$all_versions}
+for ver in ${1:-${IEVMS_VERSIONS:-$all_versions}}
 do
     log "Building IE${ver} VM"
     build_ievm $ver
