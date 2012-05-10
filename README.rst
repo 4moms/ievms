@@ -10,7 +10,7 @@ Main repo is at https://github.com/xdissent/ievms
 Short Version
 =============
 
-    * Setup
+    * Setup::
 
         git clone git@github.com:4moms/ievms
         cd ievms
@@ -18,7 +18,7 @@ Short Version
         ln -s $(pwd)/ievms.sh ~/bin/
         rsync -av bhaskell-tp.local::ievms/ ~
 
-    * Steps for each version (version = 6, 7, 8, or 9)
+    * Installation for each version (version = 6, 7, 8, or 9)::
 
         ievms.sh $version
 
