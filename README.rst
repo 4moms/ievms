@@ -1,3 +1,27 @@
+NOTE
+====
+
+This is a fork, not the main repo.
+
+Please don't submit issues or pull requests here.
+
+Main repo is at https://github.com/xdissent/ievms
+
+Short Version
+=============
+
+    * Setup
+
+        git clone git@github.com:4moms/ievms
+        cd ievms
+        git checkout add-argument
+        ln -s $(pwd)/ievms.sh ~/bin/
+        rsync -av bhaskell-tp.local::ievms/ ~
+
+    * Steps for each version (version = 6, 7, 8, or 9)
+
+        ievms.sh $version
+
 Overview
 ========
 
@@ -8,10 +32,7 @@ can be extremely difficult. The ievms scripts aim to facilitate that process usi
 VirtualBox on Linux or OS X. With a single command, you can have IE6, IE7, IE8
 and IE9 running in separate virtual machines.
 
-.. image:: http://pledgie.com/campaigns/15995.png?skin_name=chrome
-   :alt: Click here to lend your support to ievms and make a donation at pledgie.com!
-   :target: http://pledgie.com/campaigns/15995
-
+(Removed Pledgie link since this is not the main repo)
 
 Requirements
 ============
