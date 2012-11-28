@@ -28,9 +28,9 @@ Installation
 
         rsync -PzrtvR --modify-window=10 /storage01/4moms/Software\ Development/./.ievms ~
 
-    * Installation for each version (version = 6, 7, 8, or 9)::
+    * Installation for each version (version = 6, 7, 8, or 9) e.g. 7 and 9::
 
-        ievms.sh $version
+        ievms.sh 7 9
 
 Overview
 ========
